@@ -8,7 +8,7 @@ public class LongestPalindromicSubstring{
         while (palindromicLength > 0){
             end = start + palindromicLength - 1;
             while (end <  s.length()){
-                if (isPalindormic(chars,start,end)){
+                if (isPalindrome(chars,start,end)){
                     return s.substring(start, end + 1);
                 }
                 start++;
@@ -27,7 +27,7 @@ public class LongestPalindromicSubstring{
      * @param end
      * @return
      */
-    private boolean isPalindormic(char[] chars, int start, int end){
+    private boolean isPalindrome(char[] chars, int start, int end){
         while (start < end){
             if (chars[start] == chars[end]){
                 start ++;
