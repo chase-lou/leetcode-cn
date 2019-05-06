@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.chaselou.leetcode.d.MedianOfTwoSortedArrays;
 
 public class MedianOfTwoSortedArrays{
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {

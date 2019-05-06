@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.chaselou.leetcode.c.LongestSubstringWithoutRepeatingCharacters;
 
 import java.util.LinkedList;
 
